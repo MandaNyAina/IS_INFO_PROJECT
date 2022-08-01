@@ -1,5 +1,5 @@
 
-# Detection de la position du verbe (DM)
+# Calcul de la moyenne d'âge des étudiants (DM)
 
 Comment calculer la moyenne d'âge des étudiants avec des données de date de naissance de chaque étudiant chaque année, code simple
 
