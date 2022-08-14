@@ -1,0 +1,4 @@
+scrapy
+numpy
+matplotlib
+pandas

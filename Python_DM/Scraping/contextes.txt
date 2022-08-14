@@ -1,0 +1,6 @@
+Sur 2 sites : 
+- https://supermarche.mg/
+- https://tsenabe.mg/
+
+1 - qui vend plus de viande (pie model)
+2 - variation de prix (histogram model)
