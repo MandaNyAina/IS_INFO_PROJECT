@@ -82,13 +82,13 @@ int main(int argc, char *argv[])
         //     exit 0;
         // }
 
-        if (send(sock, message, strlen(message), 0) < 0)
+        if ((send(sock, message, strlen(message), 0)) < 0)
         {
             puts("Send failed");
             return 1;
         }
         // Receive a reply from the server
-        if (read_size = recv(sock, server_reply, 4096, 0) < 0)
+        if ((read_size = recv(sock, server_reply, 4096, 0)) < 0)
         {
             puts("recv failed");
             break;
@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
 
         fclose(fichier);
 
-        printf(text);
+        puts(text);
 
         // for (int siz = 0; siz <= strlen(server_reply); siz++)
         // {
