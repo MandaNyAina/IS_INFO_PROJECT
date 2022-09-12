@@ -121,6 +121,7 @@ int main(int argc, char *argv[])
         fclose(fichier);
 
         puts(text);
+    
 
         // for (int siz = 0; siz <= strlen(server_reply); siz++)
         // {
